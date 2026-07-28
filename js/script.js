@@ -20,8 +20,7 @@ window.addEventListener("load", function(){
 });
 
 
-
-// Home Slider
+// Slider
 
 let slides = document.querySelectorAll(".slide");
 
@@ -38,12 +37,9 @@ function changeSlide(){
 
         });
 
-
         slides[slideIndex].classList.add("active");
 
-
         slideIndex++;
-
 
         if(slideIndex >= slides.length){
 
@@ -63,25 +59,21 @@ if(slides.length > 0){
 }
 
 
-
 // Login Demo
 
 const loginButton = document.querySelector(".login-button");
-
 
 if(loginButton){
 
 loginButton.onclick=function(){
 
-    alert("Demo Login Successful!");
+alert("Demo Login Successful!");
 
-    window.location.href="index.html";
-
-}
+window.location.href="index.html";
 
 }
 
-
+}
 
 
 // Register Demo
@@ -94,50 +86,41 @@ if(registerBtn){
 registerBtn.onclick=function(){
 
 
-let username=document.getElementById("username").value;
+let username = document.getElementById("username").value;
 
-let email=document.getElementById("email").value;
+let email = document.getElementById("email").value;
 
-let password=document.getElementById("password").value;
-
+let password = document.getElementById("password").value;
 
 
 if(username=="" || email=="" || password==""){
 
-
 alert("Please fill all fields");
 
+}
 
-}else{
-
+else{
 
 alert("Demo Account Created Successfully!");
 
-
 window.location.href="login.html";
 
-
 }
 
 
 }
 
-
 }
 
 
-
-
-// Bottom Menu Active
+// Bottom Menu
 
 const menuItems=document.querySelectorAll(".bottom-nav a");
 
 
 menuItems.forEach(function(item){
 
-
 item.addEventListener("click",function(){
-
 
 menuItems.forEach(function(nav){
 
@@ -145,43 +128,11 @@ nav.classList.remove("active");
 
 });
 
-
 this.classList.add("active");
 
-
 });
 
-
 });
-
 
 
 console.log("Demo Casino Script Loaded");
-// Demo Register
-
-const registerBtn = document.getElementById("registerBtn");
-
-if(registerBtn){
-
-    registerBtn.onclick = function(){
-
-        let username = document.getElementById("username").value;
-        let email = document.getElementById("email").value;
-        let password = document.getElementById("password").value;
-
-
-        if(username=="" || email=="" || password==""){
-
-            alert("Please fill all fields");
-
-        }else{
-
-            alert("Demo Account Created Successfully!");
-
-            window.location.href="login.html";
-
-        }
-
-    }
-
-}
