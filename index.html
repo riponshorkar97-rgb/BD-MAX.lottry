@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Demo Casino</title>
 
 <link rel="stylesheet" href="style.css">
@@ -14,138 +18,461 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 
 <body>
 
+<!-- Splash Screen -->
+
+<div id="splash">
+
+<div class="loader">
+
+<div class="loader-logo">🎰</div>
+
+<h1>Demo Casino</h1>
+
+<p>Loading...</p>
+
+</div>
+
+</div>
+
 <!-- Header -->
 
 <header class="header">
 
+<div class="top-header">
+
 <div class="logo">
+
 🎰 Demo Casino
+
 </div>
 
-<div class="header-btn">
+<div class="header-right">
 
-<button class="login">Login</button>
+<div class="balance-box">
 
-<button class="register">Register</button>
+<span>Balance</span>
+
+<h3>$9999.00</h3>
+
+</div>
+
+<button class="login-btn">
+
+Login
+
+</button>
+
+</div>
 
 </div>
 
 </header>
 
-<!-- Notice -->
+<!-- Running Notice -->
 
-<div class="notice">
+<section class="notice-bar">
 
 <marquee>
-🎁 Welcome Bonus 100% | Daily Cashback | VIP Rewards | Demo Version
+
+🎉 Welcome Bonus 100% | Daily Cashback | VIP Rewards | Instant Deposit | Instant Withdraw | Demo Version
+
 </marquee>
+
+</section>
+
+<!-- Main Banner -->
+
+<section class="banner">
+
+<div class="banner-content">
+
+<h2>WELCOME TO DEMO CASINO</h2>
+
+<p>
+
+Play Demo Games & Experience Premium Interface
+
+</p>
+
+<div class="banner-buttons">
+
+<button>
+
+Register
+
+</button>
+
+<button>
+
+Download App
+
+</button>
 
 </div>
 
-<!-- Slider -->
+</div>
+
+</section>
+
+<!-- Image Slider -->
 
 <section class="slider">
 
 <div class="slide active">
-<img src="https://picsum.photos/800/350?random=1">
+
+<img src="https://picsum.photos/900/350?random=1">
+
 </div>
 
 <div class="slide">
-<img src="https://picsum.photos/800/350?random=2">
+
+<img src="https://picsum.photos/900/350?random=2">
+
 </div>
 
 <div class="slide">
-<img src="https://picsum.photos/800/350?random=3">
+
+<img src="https://picsum.photos/900/350?random=3">
+
+</div>
+
+<div class="slide">
+
+<img src="https://picsum.photos/900/350?random=4">
+
+</div>
+
+</section>
+<!-- Promotion Cards -->
+
+<section class="promo-section">
+
+<div class="promo-grid">
+
+<div class="promo-card">
+<i class="fas fa-gift"></i>
+<h3>Welcome Bonus</h3>
+<p>Get 100% Demo Bonus</p>
+</div>
+
+<div class="promo-card">
+<i class="fas fa-coins"></i>
+<h3>Cashback</h3>
+<p>Daily Reward</p>
+</div>
+
+<div class="promo-card">
+<i class="fas fa-crown"></i>
+<h3>VIP Club</h3>
+<p>Exclusive Benefits</p>
+</div>
+
+<div class="promo-card">
+<i class="fas fa-trophy"></i>
+<h3>Tournament</h3>
+<p>Weekly Competition</p>
+</div>
+
 </div>
 
 </section>
 
-<!-- Game Category -->
+<!-- Popular Games -->
 
 <section class="games">
 
+<div class="section-title">
+
 <h2>Popular Games</h2>
+
+<a href="#">View All</a>
+
+</div>
 
 <div class="game-grid">
 
-<div class="card">
+<div class="game-card">
 <i class="fas fa-dice"></i>
-<p>Slots</p>
+<h3>Slots</h3>
+<p>120 Games</p>
 </div>
 
-<div class="card">
+<div class="game-card">
 <i class="fas fa-coins"></i>
-<p>Casino</p>
+<h3>Casino</h3>
+<p>85 Games</p>
 </div>
 
-<div class="card">
+<div class="game-card">
 <i class="fas fa-futbol"></i>
-<p>Sports</p>
+<h3>Sports</h3>
+<p>Live Match</p>
 </div>
 
-<div class="card">
+<div class="game-card">
 <i class="fas fa-fish"></i>
-<p>Fishing</p>
+<h3>Fishing</h3>
+<p>20 Games</p>
 </div>
 
-<div class="card">
+<div class="game-card">
 <i class="fas fa-chess"></i>
-<p>Poker</p>
+<h3>Poker</h3>
+<p>Table Games</p>
 </div>
 
-<div class="card">
+<div class="game-card">
 <i class="fas fa-dragon"></i>
-<p>Dragon</p>
+<h3>Dragon</h3>
+<p>Hot Game</p>
 </div>
 
-<div class="card">
-<i class="fas fa-gift"></i>
-<p>Bonus</p>
+<div class="game-card">
+<i class="fas fa-gem"></i>
+<h3>Baccarat</h3>
+<p>Classic</p>
 </div>
 
-<div class="card">
-<i class="fas fa-crown"></i>
-<p>VIP</p>
+<div class="game-card">
+<i class="fas fa-star"></i>
+<h3>Lucky Spin</h3>
+<p>Daily Bonus</p>
 </div>
 
 </div>
 
 </section>
 
-<!-- VIP Banner -->
+<!-- Live Winners -->
 
-<section class="vip">
+<section class="winner-section">
 
-<h2>VIP CLUB</h2>
+<h2>Recent Winners</h2>
 
-<p>Become VIP & Enjoy Exclusive Rewards</p>
+<div class="winner-list">
 
-<button>Join Now</button>
+<div class="winner-item">
+<span>👤 User_1025</span>
+<strong>$1,250</strong>
+</div>
+
+<div class="winner-item">
+<span>👤 User_8891</span>
+<strong>$860</strong>
+</div>
+
+<div class="winner-item">
+<span>👤 User_7643</span>
+<strong>$2,430</strong>
+</div>
+
+<div class="winner-item">
+<span>👤 User_1188</span>
+<strong>$680</strong>
+</div>
+
+</div>
 
 </section>
+<!-- VIP Membership -->
+
+<section class="vip-section">
+
+<div class="vip-card">
+
+<h2>💎 VIP Membership</h2>
+
+<p>Unlock exclusive demo rewards and premium features.</p>
+
+<div class="vip-levels">
+
+<div class="vip-box">
+<h3>VIP 1</h3>
+<span>Bronze</span>
+</div>
+
+<div class="vip-box">
+<h3>VIP 2</h3>
+<span>Silver</span>
+</div>
+
+<div class="vip-box">
+<h3>VIP 3</h3>
+<span>Gold</span>
+</div>
+
+<div class="vip-box">
+<h3>VIP 4</h3>
+<span>Diamond</span>
+</div>
+
+</div>
+
+<button class="vip-btn">Join VIP</button>
+
+</div>
+
+</section>
+
+<!-- Features -->
+
+<section class="feature-section">
+
+<h2>Platform Features</h2>
+
+<div class="feature-grid">
+
+<div class="feature-card">
+<i class="fas fa-wallet"></i>
+<h3>Wallet</h3>
+<p>Manage your demo balance easily.</p>
+</div>
+
+<div class="feature-card">
+<i class="fas fa-bolt"></i>
+<h3>Fast Access</h3>
+<p>Quick navigation across all sections.</p>
+</div>
+
+<div class="feature-card">
+<i class="fas fa-shield-alt"></i>
+<h3>Security</h3>
+<p>Modern interface with secure design.</p>
+</div>
+
+<div class="feature-card">
+<i class="fas fa-headset"></i>
+<h3>Support</h3>
+<p>24/7 demo support interface.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Download Banner -->
+
+<section class="download-banner">
+
+<div class="download-content">
+
+<h2>📱 Demo Mobile App</h2>
+
+<p>Experience a smooth mobile interface.</p>
+
+<div class="download-buttons">
+
+<button>Android</button>
+
+<button>iPhone</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- News -->
+
+<section class="news-section">
+
+<h2>Latest News</h2>
+
+<div class="news-card">
+🎉 New demo games added this week.
+</div>
+
+<div class="news-card">
+🏆 Weekly tournament starts soon.
+</div>
+
+<div class="news-card">
+🎁 Daily login bonus available.
+</div>
+
+</section>
+<!-- Login Popup (Demo) -->
+
+<div id="loginPopup" class="popup">
+
+  <div class="popup-content">
+
+    <span class="close-btn">&times;</span>
+
+    <h2>Login</h2>
+
+    <input type="text" placeholder="Username">
+
+    <input type="password" placeholder="Password">
+
+    <button>Login</button>
+
+    <p>Don't have an account? <a href="#">Register</a></p>
+
+  </div>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="footer">
+
+<div class="footer-logo">
+
+🎰 Demo Casino
+
+</div>
+
+<p>
+
+Demo User Interface © 2026
+
+</p>
+
+</footer>
 
 <!-- Bottom Navigation -->
 
 <nav class="bottom-nav">
 
-<a href="#">
+<a href="#" class="active">
+
 <i class="fas fa-house"></i>
+
 <span>Home</span>
+
 </a>
 
 <a href="#">
+
 <i class="fas fa-gamepad"></i>
+
 <span>Games</span>
+
 </a>
 
 <a href="#">
+
 <i class="fas fa-wallet"></i>
+
 <span>Wallet</span>
+
 </a>
 
 <a href="#">
+
+<i class="fas fa-gift"></i>
+
+<span>Bonus</span>
+
+</a>
+
+<a href="#">
+
 <i class="fas fa-user"></i>
+
 <span>Profile</span>
+
 </a>
 
 </nav>
@@ -153,4 +480,5 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 <script src="script.js"></script>
 
 </body>
+
 </html>
