@@ -213,3 +213,18 @@ behavior:"smooth"
 });
 
 console.log("Demo Casino UI Loaded Successfully");
+// Demo Login
+
+const loginBtn=document.querySelector(".login-button");
+
+if(loginBtn){
+
+loginBtn.onclick=function(){
+
+alert("Demo Login Successful!");
+
+window.location.href="index.html";
+
+}
+
+}
