@@ -4,53 +4,150 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Demo Casino</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
+
 <body>
 
-<header>
-    <div class="logo">🎰 Demo Casino</div>
-    <div>
-        <button class="btn">Login</button>
-        <button class="btn register">Register</button>
-    </div>
-</header>
+<!-- Header -->
 
-<div class="banner">
-    <h2>Welcome Bonus 100%</h2>
-    <p>Demo Version</p>
+<header class="header">
+
+<div class="logo">
+🎰 Demo Casino
 </div>
 
-<section class="games">
-    <h3>Popular Games</h3>
+<div class="header-btn">
 
-    <div class="game-card">
-        <img src="https://via.placeholder.com/150x100" alt="">
-        <p>Slot Demo</p>
-    </div>
+<button class="login">Login</button>
 
-    <div class="game-card">
-        <img src="https://via.placeholder.com/150x100" alt="">
-        <p>Live Demo</p>
-    </div>
+<button class="register">Register</button>
 
-    <div class="game-card">
-        <img src="https://via.placeholder.com/150x100" alt="">
-        <p>Fishing Demo</p>
-    </div>
+</div>
 
-    <div class="game-card">
-        <img src="https://via.placeholder.com/150x100" alt="">
-        <p>Sports Demo</p>
-    </div>
+</header>
+
+<!-- Notice -->
+
+<div class="notice">
+
+<marquee>
+🎁 Welcome Bonus 100% | Daily Cashback | VIP Rewards | Demo Version
+</marquee>
+
+</div>
+
+<!-- Slider -->
+
+<section class="slider">
+
+<div class="slide active">
+<img src="https://picsum.photos/800/350?random=1">
+</div>
+
+<div class="slide">
+<img src="https://picsum.photos/800/350?random=2">
+</div>
+
+<div class="slide">
+<img src="https://picsum.photos/800/350?random=3">
+</div>
 
 </section>
 
+<!-- Game Category -->
+
+<section class="games">
+
+<h2>Popular Games</h2>
+
+<div class="game-grid">
+
+<div class="card">
+<i class="fas fa-dice"></i>
+<p>Slots</p>
+</div>
+
+<div class="card">
+<i class="fas fa-coins"></i>
+<p>Casino</p>
+</div>
+
+<div class="card">
+<i class="fas fa-futbol"></i>
+<p>Sports</p>
+</div>
+
+<div class="card">
+<i class="fas fa-fish"></i>
+<p>Fishing</p>
+</div>
+
+<div class="card">
+<i class="fas fa-chess"></i>
+<p>Poker</p>
+</div>
+
+<div class="card">
+<i class="fas fa-dragon"></i>
+<p>Dragon</p>
+</div>
+
+<div class="card">
+<i class="fas fa-gift"></i>
+<p>Bonus</p>
+</div>
+
+<div class="card">
+<i class="fas fa-crown"></i>
+<p>VIP</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- VIP Banner -->
+
+<section class="vip">
+
+<h2>VIP CLUB</h2>
+
+<p>Become VIP & Enjoy Exclusive Rewards</p>
+
+<button>Join Now</button>
+
+</section>
+
+<!-- Bottom Navigation -->
+
 <nav class="bottom-nav">
-    <a href="#">Home</a>
-    <a href="#">Games</a>
-    <a href="#">Wallet</a>
-    <a href="#">Profile</a>
+
+<a href="#">
+<i class="fas fa-house"></i>
+<span>Home</span>
+</a>
+
+<a href="#">
+<i class="fas fa-gamepad"></i>
+<span>Games</span>
+</a>
+
+<a href="#">
+<i class="fas fa-wallet"></i>
+<span>Wallet</span>
+</a>
+
+<a href="#">
+<i class="fas fa-user"></i>
+<span>Profile</span>
+</a>
+
 </nav>
 
 <script src="script.js"></script>
